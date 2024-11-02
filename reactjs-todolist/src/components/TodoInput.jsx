@@ -12,6 +12,7 @@ const [todoValue, setTodoValue] = useState('')
         }} placeholder="Enter todo..."/>
         <button onClick={() => {
             handleAddTodos(todoValue)
+            setTodoValue('')
         }}>Add</button>
     </header>
   )
